@@ -11,13 +11,13 @@ type  vehicle interface  {
 type car struct {
 	model string
 	make string
-	typeVechicle string
+	typeVehicle string
 }
 
 type truck struct {
 	model string
 	make string
-	typeVechicle string
+	typeVehicle string
 }
 
 type bike struct {
@@ -47,7 +47,7 @@ type feedbackResult struct {
 //map[KeyType]ValueType
 var vehicleResult map[string]feedbackResult
 //slice named inventory of type vehicle.
-var inventory vehicle
+var inventory []vehicle
 
 
 
