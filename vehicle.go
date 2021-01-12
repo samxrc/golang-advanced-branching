@@ -9,11 +9,11 @@ type  vehicle interface  {
 }
 
 type car struct {
-model string
-make string
-typeVechicle string
-
+	model string
+	make string
+	typeVechicle string
 }
+
 type truck struct {
 	model string
 	make string
